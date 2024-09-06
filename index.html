@@ -84,7 +84,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>Crescent ID Badge Generator</h1>
+        <h2>Crescent ID Badge Generator(2)</h2>
 
         <!-- Input fields -->
         <label for="name">Name</label>
@@ -116,7 +116,7 @@
             const password = document.getElementById("password").value;
 
             // Concatenate User ID and Password with carriage return (new line)
-            const qrData = userId + "\r" + password;
+            const qrData = userId + "\n" + password;
 
             // Display the name
             const displayNameElement = document.getElementById("displayName");
